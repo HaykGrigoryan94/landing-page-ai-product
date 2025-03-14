@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import * as Avatar from '@radix-ui/react-avatar'
 
 interface TestimonialCardProps {
   name: string
@@ -38,10 +38,10 @@ export default function TestimonialCard({ name, role, content, avatar }: Testimo
             <p className="text-muted-foreground flex-grow mb-6">{content}</p>
 
             <div className="flex items-center mt-auto">
-              <Avatar className="h-10 w-10 mr-3">
-                <AvatarImage src={avatar} alt={name} />
-                <AvatarFallback>{name.charAt(0)}</AvatarFallback>
-              </Avatar>
+              <Avatar.Root className="h-10 w-10 mr-3">
+                <Avatar.Image src={avatar} alt={name} />
+                <Avatar.Fallback>{name.charAt(0)}</Avatar.Fallback>
+              </Avatar.Root>
               <div>
                 <p className="font-medium text-sm">{name}</p>
                 <p className="text-xs text-muted-foreground">{role}</p>
