@@ -61,3 +61,7 @@ For support, please email [hayk94grigoryan@gmail.com]
 ## License
 
 This template is licensed under a Commercial License. See LICENSE file for details.
+
+## Deployment
+
+This site is deployed on GitHub Pages at: https://haykgrigoryan94.github.io/landing-page-ai-product/
