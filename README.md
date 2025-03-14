@@ -56,7 +56,7 @@ All components are in the `components` directory and can be customized as needed
 
 ## Support
 
-For support, please email [your-email@example.com]
+For support, please email [hayk94grigoryan@gmail.com]
 
 ## License
 
