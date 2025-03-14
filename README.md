@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Platform Landing Page Template
+
+A modern, animated landing page template built with Next.js 13, Tailwind CSS, and Framer Motion. Perfect for AI startups, SaaS products, and modern web applications.
+
+## Features
+
+- 🎨 Modern, clean design
+- ⚡ Built with Next.js 13 and App Router
+- 🎭 Smooth animations with Framer Motion
+- 📱 Fully responsive
+- 🎯 Interactive hero section with particle animation
+- 💫 Animated feature cards
+- 📊 Animated pricing tables
+- 🤝 Testimonials section
+- ❓ FAQ accordion
+- 🎉 Waitlist form with modal
+- 🌙 Dark mode ready
+
+## Tech Stack
+
+- Next.js 13
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Radix UI
+- Lucide Icons
+- Shadcn UI Components
 
 ## Getting Started
 
-First, run the development server:
+1. Clone this template
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Customization
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Colors
+Edit `tailwind.config.js` to customize the color scheme.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Content
+Update the content in `app/page.tsx`:
+- Features
+- Testimonials
+- Pricing plans
+- FAQ items
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Components
+All components are in the `components` directory and can be customized as needed.
 
-## Learn More
+## Support
 
-To learn more about Next.js, take a look at the following resources:
+For support, please email [your-email@example.com]
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This template is licensed under a Commercial License. See LICENSE file for details.
